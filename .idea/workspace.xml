@@ -5,21 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27eac15-ca71-4ea9-bff8-5ebea7ac61a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIRepo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/coreDSL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/FastDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDICore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/GlobalFastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/InstanceRepo.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDICore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastRepo.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +32,7 @@
       <list>
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -57,16 +54,21 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/leo/core" />
+    </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.leo.core.impl" />
       <recent name="com.leo.core" />
+      <recent name="com.leo.core.api" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Kotlin.MainKt">
     <configuration name="CoreKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.leo.CoreKt" />
       <module name="fastDI.main" />
@@ -74,8 +76,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.MainKt" />
+      <module name="fastDI.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.CoreKt" />
       </list>
     </recent_temporary>

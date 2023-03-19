@@ -1,12 +1,29 @@
 package com.leo.core.api
 
+import com.leo.core.ProviderHolder
+
+/**
+ * DI logic impl
+ */
 interface IFastRepo {
 
-    fun inject(key: String, holder: ValueHolder<Any>)
+    /**
+     * inject provider to repo by class
+     */
+    fun <T> inject(clazz: Class<T>, provider: ProviderHolder<T>)
 
-    fun get(key: String): Any
+    /**
+     * inject provider to repo by class and name
+     */
+    fun <T> inject(name: String, clazz: Class<T>, provider: ProviderHolder<T>)
+
+    /**
+     * get object by class, will create by provider
+     */
+    fun <T> get(name: String, clazz: Class<T>): T
+
+    /**
+     * opt object by class, will create by provider, this will return null when object not inject
+     */
+    fun <T> opt(name: String, clazz: Class<T>): T?
 }
-
-class ValueHolder<T>(
-    val instance: () -> T
-)
