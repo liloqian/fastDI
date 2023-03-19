@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27eac15-ca71-4ea9-bff8-5ebea7ac61a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/FastDIConfig.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDICore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDICore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIContext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDICore.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDICore.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
