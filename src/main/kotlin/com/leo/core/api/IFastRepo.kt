@@ -1,11 +1,14 @@
 package com.leo.core.api
 
+import com.leo.core.FastDIConfig
 import com.leo.core.ProviderHolder
 
 /**
  * DI logic impl
  */
 interface IFastRepo {
+
+    val fastConfig: FastDIConfig
 
     /**
      * inject provider to repo by class

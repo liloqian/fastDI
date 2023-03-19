@@ -1,12 +1,9 @@
 package com.leo.core.impl
 
-import com.leo.core.FastDIException
-import com.leo.core.Key
-import com.leo.core.ProviderHolder
+import com.leo.core.*
 import com.leo.core.api.IFastRepo
-import com.leo.core.cast
 
-class FastDIRepo : IFastRepo {
+class FastDIRepo(override val fastConfig: FastDIConfig = FastDIConfig()) : IFastRepo {
 
     private val providerMap = hashMapOf<Key, ProviderHolder<*>>()
     override fun <T> inject(clazz: Class<T>, provider: ProviderHolder<T>) {

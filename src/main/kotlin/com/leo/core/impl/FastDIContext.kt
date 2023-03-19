@@ -1,10 +1,11 @@
 package com.leo.core.impl
 
+import com.leo.core.FastDIConfig
 import com.leo.core.GLOBAL_SCOPE
 import com.leo.core.api.IFastDICore
 import com.leo.core.api.IFastDIContext
 
-class FastDIContext : IFastDIContext {
+class FastDIContext(override val fastConfig: FastDIConfig = FastDIConfig()) : IFastDIContext {
 
     private val diCoreMap = mutableMapOf<String, IFastDICore>()
 

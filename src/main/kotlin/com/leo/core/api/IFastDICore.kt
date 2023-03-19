@@ -1,5 +1,7 @@
 package com.leo.core.api
 
+import com.leo.core.FastDIConfig
+
 /**
  * DI basic interface
  */
@@ -10,4 +12,7 @@ interface IFastDICore {
 
     /** repo */
     val instanceRepo: IFastRepo
+
+    /** config */
+    val fastConfig: FastDIConfig
 }
