@@ -1,12 +1,20 @@
-package com.leo
+package com.leo.dsl
 
 import com.leo.core.ProviderHolder
 import com.leo.core.api.IFastDIContext
+import com.leo.core.api.IFastDICore
 import com.leo.core.api.IFastRepo
-import com.leo.core.impl.FastDIContext
 
 fun DI.repo(config: IFastRepo.() -> Unit) {
     fastDIContext.globalFastDI.instanceRepo.config()
+}
+
+fun DI.diCore(config: IFastDICore.() -> Unit) {
+    fastDIContext.globalFastDI.config()
+}
+
+fun IFastDICore.repo(config: IFastRepo.() -> Unit) {
+    instanceRepo.config()
 }
 
 /**

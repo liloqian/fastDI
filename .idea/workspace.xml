@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f27eac15-ca71-4ea9-bff8-5ebea7ac61a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIRepo.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/coreDSL.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/FastDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDICore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/GlobalFastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/impl/FastDIContext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/InstanceRepo.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDICore.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastDIContext.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastRepo.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/api/IFastRepo.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/DI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/DI.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/coreDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/coreDSL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/test/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Object" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -60,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl" />
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/leo/core" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">

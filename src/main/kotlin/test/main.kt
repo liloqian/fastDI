@@ -1,8 +1,9 @@
 package test
 
-import com.leo.*
+import com.leo.dsl.*
 
 fun main() {
+    // basic use
     DI.repo {
         instance { "new" }
         instance { "two" }
@@ -22,6 +23,15 @@ fun main() {
         println(opt<House>("two"))
         println(opt<House>())
     }
+    // between module
+    DI.diCore {
+        repo {
+            instance { ModuleA(this) }
+            instance { ModuleB(this) }
+        }
+    }
+    val moduleA = DI.fastDIContext.globalFastDI.instanceRepo.get<ModuleA>()
+    val moduleB = DI.fastDIContext.globalFastDI.instanceRepo.get<ModuleB>()
 }
 
 data class Book(val name: String, val price: Float)
