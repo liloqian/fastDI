@@ -31,6 +31,21 @@
         println(opt<House>("two"))
         println(opt<House>())
     }
+    
+// 3. get instance by IDL, every business can implement IDL
+class ModuleA(override val diCore: IFastRepo) : IDI {
+
+    private val book by inject<Book>()
+
+    private val people by injectOrNull<People>()
+
+    fun test() {
+        println("-----module A------")
+        println("book:$book")
+        println("people:$people")
+    }
+
+}
 ```
 
 ### 3. DSL for FastDI
@@ -43,6 +58,10 @@ inject: register a instance to repo, support more than one class instance by nam
 get: get a instance from repo, will throw Exception when get null, use name if more than one instance
 
 opt: opt a instance from repo, may be get null, use name if more than one instance
+
+inject: get a instance from repo, for IDI
+
+injectOrNull: opt a instance from repo, for IDI
 ```
 
 

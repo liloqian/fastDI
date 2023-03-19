@@ -6,8 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="f27eac15-ca71-4ea9-bff8-5ebea7ac61a9" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/DI.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/DI.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/coreDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/coreDSL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/ProviderHolder.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/core/ProviderHolder.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/coreDSL.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl/coreDSL.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/test/ModuleA.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/ModuleA.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/test/ModuleB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/ModuleB.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/test/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/test/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,16 +44,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/kotlin/com/leo/dsl" />

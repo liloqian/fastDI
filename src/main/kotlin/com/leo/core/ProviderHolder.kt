@@ -5,7 +5,9 @@ class ProviderHolder<T>(
 ) {
 
     private val _value: T by lazy {
-        instance.invoke()
+        instance.invoke().apply {
+            println("~~~~~~ create $this")
+        }
     }
 
     fun value(): T {

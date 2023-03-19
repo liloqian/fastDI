@@ -30,9 +30,14 @@ fun main() {
             instance { ModuleB(this) }
         }
     }
+    println("---------1---------")
     val moduleA = DI.fastDIContext.globalFastDI.instanceRepo.get<ModuleA>()
     val moduleB = DI.fastDIContext.globalFastDI.instanceRepo.get<ModuleB>()
+    println("---------2---------")
+    moduleA.test()
+    moduleB.test()
 }
 
 data class Book(val name: String, val price: Float)
 data class House(val name: String, val price: Float)
+data class People(val name: String, val price: Float)
